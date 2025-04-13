@@ -17,8 +17,8 @@ We collect and store certain information necessary for the Bot to function corre
 
 **Data Provided By You or Derived From Your Commands:**
 
-3.  **Character & Inventory Data:** If you use features related to character management or inventories (like `!add Player sword`), we store data you provide or generate, such as character names, virtual currency amounts (e.g., `gold`), and item details (`items` array including name, quantity, etc.).
-4.  **Game Tracking Data:** If you use game tracking features, we store data related to those games, such as game identifiers/names, time played (`time`), session counts (`sessions`), and last played dates (`lastPlayed`), linked to your User ID.
+3.  **Character & Inventory Data:** If you use features related to character management or inventories (like `!invadd Player sword`), we store data you provide or generate, such as character names, virtual currency amounts (e.g., `gold`), and item details (`items` array including name, quantity, etc.).
+4.  **Game Tracking Data:** If you use game tracking features, we store data related to those games, such as game identifiers/names,in-game time (`time`), session counts (`sessions`), and last played dates (`lastPlayed`), which are not connected to your User ID.
 5.  **Configuration Data:** We store settings you configure, such as custom command prefixes (`prefix`, stored per Server ID) or player signatures (`playerSignatures.s`, stored per encrypted User ID).
 6.  **Ephemeral Command Data:** When you issue a command (e.g., `!d20`, `!add Player sword`), the content of that specific command message is processed ephemerally (temporarily, in memory) solely to execute the requested action. **We DO NOT log or store the raw content of your command messages.** Our storage consists only of the structured data listed above, generated as a result of commands.
 
@@ -27,7 +27,7 @@ We collect and store certain information necessary for the Bot to function corre
 The information collected is used solely for the following purposes:
 
 * **Providing Bot Functionality:** To enable core features like dice rolling, managing inventories, tracking game statistics, applying custom prefixes, and associating player signatures.
-* **Associating Data:** To link stored data (inventory, game stats, signatures) correctly to your Discord User ID or Server ID using the encrypted IDs.
+* **Associating Data:** To link stored data (inventory, game stats, signatures) correctly to your Discord User ID and Server ID using the encrypted IDs.
 * **Processing Commands:** To understand and execute the commands you send to the Bot (ephemeral use only, no storage of the command itself).
 * **Maintenance & Debugging:** To diagnose and fix errors. Error reports may contain non-personal technical information but **do not** include raw command logs or your personal data beyond potentially an encrypted User ID for context if an error is user-specific. We may use aggregated, anonymized usage statistics to monitor performance.
 
