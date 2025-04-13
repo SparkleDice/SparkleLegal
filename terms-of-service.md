@@ -37,7 +37,7 @@ We reserve the right, but are not obligated, to review and remove any User Conte
 
 ## 5. Intellectual Property
 
-Excluding User Content, the Bot itself, source code, features, functionality, are and will remain the exclusive intellectual property of the Bot owner(s)/developer(s). These Terms do not grant you any rights to use the Sparkle name or trademarks without our prior written permission.
+Excluding User Content, the Bot itself, source code, features, functionality, are and will remain the exclusive intellectual property of the Bot owner(s)/developer(s).
 
 ## 6. Disclaimer of Warranties
 
