@@ -21,7 +21,7 @@ We use the information we collect to:
 
 ## Data Storage and Security
 
-Our Bot is hosted on Cybrancee, a bot hosting service. All user data files and related information are stored on Cybrancee's servers and are subject to their security practices. For more information about their data handling, please refer to Cybrancee's own Privacy Policy.
+Our Bot is hosted on Cybrancee, a bot hosting service. All user data files and related information are stored on Cybrancee's servers and are subject to their security practices. All User IDs are properly encrypted. For more information about their data handling, please refer to Cybrancee's own Privacy Policy.
 
 ## Data Sharing and Disclosure
 
